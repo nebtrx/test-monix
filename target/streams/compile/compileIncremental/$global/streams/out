@@ -1,0 +1,69 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/omar/Documents/work/scala/test-monix/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1ca25511, interfacing (CompilerInterface) with Scala compiler version 2.12.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	UTF-8[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-language:higherKinds[0m
+[0m[[0mdebug[0m] [0m	-Xlint[0m
+[0m[[0mdebug[0m] [0m	-Ypartial-unification[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/omar/.ivy2/cache/org.spire-math/kind-projector_2.12/jars/kind-projector_2.12-0.9.3.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes:/Users/omar/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/omar/Documents/work/scala/test-monix/target/scala-2.12/classes:/Users/omar/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.3.jar:/Users/omar/.ivy2/cache/io.monix/monix_2.12/jars/monix_2.12-3.0.0-RC1.jar:/Users/omar/.ivy2/cache/io.monix/monix-execution_2.12/jars/monix-execution_2.12-3.0.0-RC1.jar:/Users/omar/.ivy2/cache/org.typelevel/cats-effect_2.12/jars/cats-effect_2.12-0.10.jar:/Users/omar/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.1.jar:/Users/omar/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.0.1.jar:/Users/omar/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.2.jar:/Users/omar/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.0.1.jar:/Users/omar/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar:/Users/omar/.ivy2/cache/io.monix/monix-eval_2.12/jars/monix-eval_2.12-3.0.0-RC1.jar:/Users/omar/.ivy2/cache/io.monix/monix-tail_2.12/jars/monix-tail_2.12-3.0.0-RC1.jar:/Users/omar/.ivy2/cache/io.monix/monix-reactive_2.12/jars/monix-reactive_2.12-3.0.0-RC1.jar:/Users/omar/.ivy2/cache/org.jctools/jctools-core/bundles/jctools-core-2.1.1.jar:/Users/omar/.ivy2/cache/io.monix/monix-java_2.12/jars/monix-java_2.12-3.0.0-RC1.jar[0m
+[0m[[31merror[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:71: value |+| is not a member of String[0m
+[0m[[31merror[0m] [0m  println("Hello " |+| "Cats!")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:80: value |+| is not a member of Vector[String][0m
+[0m[[31merror[0m] [0m      r <- current |+| Vector[String](logEntry)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:3: Unused import[0m
+[0m[[33mwarn[0m] [0mimport cats.instances.string._[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:4: Unused import[0m
+[0m[[33mwarn[0m] [0mimport cats.instances.vector._[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:5: Unused import[0m
+[0m[[33mwarn[0m] [0mimport monix.eval.{Fiber, MVar, Task}[0m
+[0m[[33mwarn[0m] [0m                   ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:10: Unused import[0m
+[0m[[33mwarn[0m] [0mimport scala.util.Try[0m
+[0m[[33mwarn[0m] [0m                  ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:12: Unused import[0m
+[0m[[33mwarn[0m] [0mimport cats.syntax.applicative._[0m
+[0m[[33mwarn[0m] [0m                               ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:14: Unused import[0m
+[0m[[33mwarn[0m] [0mimport cats.syntax._[0m
+[0m[[33mwarn[0m] [0m                   ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:16: Unused import[0m
+[0m[[33mwarn[0m] [0mimport scala.collection.immutable[0m
+[0m[[33mwarn[0m] [0m                        ^[0m
+[0m[[33mwarn[0m] [0m/Users/omar/Documents/work/scala/test-monix/src/main/scala/com/github/nebtrx/Main.scala:29: local val io in method periodically is never used[0m
+[0m[[33mwarn[0m] [0m    lazy val io: SchedulerService = Scheduler.io(name="my-io")[0m
+[0m[[33mwarn[0m] [0m             ^[0m
+[0m[[33mwarn[0m] [0m8 warnings found[0m
+[0m[[31merror[0m] [0mtwo errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
